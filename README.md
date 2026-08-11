@@ -5,7 +5,7 @@
 
 The September 2026 Region 12 FHIR® Connectathon is co-organized by the Department of Health Center for Health Development Region 12 with the UPM Standards and Interoperability Lab (SILab). In-kind support and funding were provided by the Strengthening Standards Capability Project (SSCP) of the Commonwealth Scientific and Industrial Research Organization (CSIRO), UP Mindanao, and other key stakeholders.
 
-This Connectathon represents a milestone in Region 12's digital health interoperability journey, bringing together healthcare systems, EMR vendors, and government agencies to advance standardized health data exchange using FHIR® profiles including PH Core, and eReferral (PeReF) specifications.
+This Connectathon represents a milestone in CHD Region 12's digital health interoperability journey, bringing together healthcare systems, EMR vendors, and government agencies to advance standardized health data exchange using FHIR® profiles including PH Core, and eReferral (PeReF) specifications.
 
 The Connectathon aims to foster interoperability across health systems by providing opportunities for healthcare system developers, business owners, vendors, government agencies, hospitals, and EMR providers to participate in critical use-case scenarios, validate emerging FHIR Implementation Guides, and build a community of practice around standards-based digital health.
 
