@@ -1,11 +1,11 @@
 
-# June 2026 Philippines FHIR® Connectathon – Boracay, Aklan, Philippines
+# September 2026 Philippines FHIR® Connectathon – General Santos, SOCKSKARGEN, Philippines
 
 <img width="1920" height="1080" alt="June FHIR Connectathon Slide Deck" src="https://github.com/user-attachments/assets/359fde77-8a27-4b98-ab4d-437f91595846" />
 
-The June 2026 Philippines FHIR® Connectathon is co-organized by the National Telehealth Center (NTHC), under the University of the Philippines Manila National Institutes of Health, in partnership with the Department of Health (DOH), Philippine Health Insurance Corporation (PhilHealth), The Strengthening Standards Capability Project (SSCP) of Commonwealth Scientific and Industrial Research Organisation (CSIRO), Aklan Provincial Health Office, and other key stakeholders.
+The September 2026 Region 12 FHIR® Connectathon is co-organized by the Department of Health Center for Health Development Region 12 with the UPM Standards and Interoperability Lab (SILab). In-kind support and funding were provided by the Strengthening Standards Capability Project (SSCP) of the Commonwealth Scientific and Industrial Research Organization (CSIRO), UP Mindanao, and other key stakeholders.
 
-This Connectathon represents a milestone in the Philippines' digital health interoperability journey, bringing together healthcare systems, EMR vendors, and government agencies to advance standardized health data exchange using FHIR® profiles including PH Core, and eReferral (PeReF) specifications.
+This Connectathon represents a milestone in Region 12's digital health interoperability journey, bringing together healthcare systems, EMR vendors, and government agencies to advance standardized health data exchange using FHIR® profiles including PH Core, and eReferral (PeReF) specifications.
 
 The Connectathon aims to foster interoperability across health systems by providing opportunities for healthcare system developers, business owners, vendors, government agencies, hospitals, and EMR providers to participate in critical use-case scenarios, validate emerging FHIR Implementation Guides, and build a community of practice around standards-based digital health.
 
@@ -53,25 +53,27 @@ To use: import both files, set `{{baseUrl}}` if needed, then run the **Submit eR
 
 ## EVENT OVERVIEW
 
+(Click here for the Governance and Management track)
+
 ### Day 1
 
 | Time | Agenda | Person/Team Responsible |
 |------|---------|------------------------|
 | 08:00 AM – 08:30 AM | Registration | Western Visayas CHD |
-| 08:30 AM – 08:40 AM | Opening Prayer<br>Philippine National Anthem<br>Introductions | Manu Gaspar<br>Host |
+| 08:30 AM – 08:40 AM | Opening Prayer<br>Philippine National Anthem<br>Introductions | Mae Fernando<br>Host |
 | 08:40 AM – 08:50 AM | Opening Remarks | Cherrie D. Esteban<br>OIC-Director IV<br>Department of Health – Knowledge Management and Information Technology Service |
-| 08:50 AM – 09:00 AM | Welcome Remarks | Dr. Helen Tobias<br>Regional Director<br>Western Visayas CHD<br><br>Jose Tafalla III<br>Development Management Officer IV<br>PDOHO Aklan |
-| 09:00 AM – 09:15 AM | Ice Breaker | Dethalee Gabrielle Velasquez<br>Project Manager<br>UP NTHC |
+| 08:50 AM – 09:00 AM | Welcome Remarks | Dr. <br>Regional Director<br>Region 12 CHD<br><br>NAME<br>Position<br>Organization |
+| 09:00 AM – 09:15 AM | Ice Breaker | Mae Fernando<br>Project Manager<br>CHD 12 |
 | 09:15 AM – 09:30 AM | Aklan Health Information Exchange | Dr. Leslie Sedillo<br>Provincial Health Officer<br>Province of Aklan |
 | 09:30 AM – 09:50 AM | Connectathon: Global Perspective Presentation | John Carter (CSIRO AEHRC)<br>Ilya Beda (CSIRO AEHRC) |
-| 09:50 AM – 10:05 AM | Introduction to the Philippine Core Implementation Guide | Gerard Paolo Villanueva, RN<br>Interoperability Specialist<br>UP NTHC |
+| 09:50 AM – 10:05 AM | Introduction to the Philippine Core Implementation Guide | Alvin Marcelo, MD<br>Founder, UPM SILab |
 | 10:05 AM – 10:20 AM | Philippine eReferral (PHeRef) Project | John Lemuel Dalisay<br>Community Lead<br>PHeRef Project |
-| 10:20 AM – 10:50 AM | Open Forum | **Panelists:**<br>John Carter (CSIRO AEHRC)<br>Ilya Beda (CSIRO AEHRC)<br>Gerard Paolo Villanueva (PH Core)<br>John Lemuel Dalisay (PHeRef)<br>Dr. Leslie Sedillo (PHO Aklan)<br>Dr. Alvin Marcelo (AeHIN)<br><br>**Facilitator:** Dir. Art Ongkeko (NTHC) |
+| 10:20 AM – 10:50 AM | Open Forum | **Panelists:**<br>Alvin Marcelo<br>John Lemuel Dalisay<br>Bong Epsitola<br><br>(PHO)<br> |
 | 10:50 AM – 11:05 AM | Morning Break | — |
-| 11:05 AM – 11:20 AM | Overview of Connectathon: Objectives, Tracks, Set Up, and Use Cases | Gerard Paolo Villanueva, RN<br>Interoperability Specialist<br>UP NTHC |
-| 11:20 AM – 11:40 AM | Basic FHIR API - Recap | Jaylord Ambal<br>System Administrator<br>UP NTHC |
+| 11:05 AM – 11:20 AM | Overview of Connectathon: Objectives, Tracks, Set Up, and Use Cases | Alvin Marcelo |
+| 11:20 AM – 11:40 AM | Basic FHIR API - Fan |
 | 11:40 AM – 01:00 PM | Group Photo<br>Lunch Break | All Participants |
-| 01:00 PM – 02:30 PM | Terminology Services and FHIR Terminology | Dr. Sofia Capistrano<br>Terminology Specialist<br><br>Dr. Thomas Niccolo Reyes<br>Interoperability Analyst<br>UP NTHC |
+| 01:00 PM – 02:30 PM | Terminology Services and FHIR Terminology | Dr. Alvin Marcelo |
 | 02:30 PM – 03:30 PM | Software Development | All Participants |
 | 03:30 PM – 04:50 PM | Working Afternoon Break (Software Development) | All Participants |
 | 04:50 PM – 05:00 PM | Wrap-up for Day 1 (Feedback Registry) | Errol Buenaventura<br>Interoperability Analyst<br>UP NTHC |
@@ -81,7 +83,7 @@ To use: import both files, set `{{baseUrl}}` if needed, then run the **Submit eR
 | Time | Agenda | Person/Team Responsible |
 |------|---------|------------------------|
 | 08:00 AM – 08:30 AM | Registration | Western Visayas CHD |
-| 08:30 AM – 08:40 AM | Recap Day 1 | Errol Buenaventura<br>Interoperability Analyst<br>UP NTHC |
+| 08:30 AM – 08:40 AM | Recap Day 1 | Participant |
 | 08:40 AM – 10:30 AM | Software Development | All Participants |
 | 10:30 AM – 11:00 AM | Working Morning Break (Software Development) | All Participants |
 | 11:00 AM – 12:00 PM | Software Development | All Participants |
@@ -89,8 +91,8 @@ To use: import both files, set `{{baseUrl}}` if needed, then run the **Submit eR
 | 01:00 PM – 03:30 PM | Software Development | All Participants |
 | 03:30 PM – 04:00 PM | Afternoon Break | All Participants |
 | 04:00 PM – 04:30 PM | Software Development (Polishing) | All Participants |
-| 04:30 PM – 04:50 PM | Orientation for Show and Tell (Demonstration) | Gerard Paolo Villanueva, RN<br>Interoperability Specialist<br>UP NTHC |
-| 04:50 PM – 05:00 PM | Wrap-up for Day 2 (Feedback Registry) | Lawrence Macalalad<br>Interoperability Analyst<br>UP NTHC |
+| 04:30 PM – 04:50 PM | Orientation for Show and Tell (Demonstration) | |
+| 04:50 PM – 05:00 PM | Activity |
 
 ### Day 3
 
@@ -103,13 +105,13 @@ To use: import both files, set `{{baseUrl}}` if needed, then run the **Submit eR
 | 11:00 AM – 12:00 PM | Preparation for Show and Tell | All Participants |
 | 12:00 PM – 01:00 PM | Lunch Break | All Participants |
 | 01:00 PM – 02:40 PM | Show and Tell | All Participants |
-| 02:40 PM – 03:00 PM | Technical Review & Open Forum | Facilitator: Dir. Art Ongkeko |
+| 02:40 PM – 03:00 PM | Technical Review & Open Forum | Facilitator:  |
 | 03:00 PM – 03:30 PM | Small-Group Discussion: Operational Readiness | All Participants |
 | 03:30 PM – 03:45 PM | Afternoon Break | All Participants |
-| 03:45 PM – 04:15 PM | Plenary Presentation and Feedback Session | **Reactors:**<br>Aliyah Evangelista (DOH OCIO)<br>Dr. Leslie Sedillo (PHO Aklan)<br>Dir. Cherrie Esteban (DOH KMITS)<br>Dr. Philip Zuniga (ADB)<br>Ms. Agnes Kristine Quilinguing (ADB)<br>Eladio Alamar (PSA)<br><br>**Facilitator:** Dir. Art Ongkeko |
-| 04:15 PM – 04:30 PM | Aklan Next Steps and Sustainability Road Map | Aliyah Evangelista<br>DOH OCIO |
-| 04:30 PM – 04:40 PM | Live Poll: Feedback | Dethalee Gabrielle Velasquez<br>Project Manager<br>UP NTHC |
-| 04:40 PM – 04:50 PM | Closing Ceremony | Dr. Leslie Ann L. Sedillo<br>PHO II<br>Province of Aklan |
+| 03:45 PM – 04:15 PM | Plenary Presentation and Feedback Session | **Reactors:**<br><br>(PHO)<br> (DOH KMITS)<br><br><br> (PSA)<br><br>**Facilitator:** Dr. Portia Marcelo |
+| 04:15 PM – 04:30 PM | R12 Next Steps and Sustainability Road Map | Bong Epistola |
+| 04:30 PM – 04:40 PM | Live Poll: Feedback |  |
+| 04:40 PM – 04:50 PM | Closing Ceremony |  |
 | 04:50 PM – 05:00 PM | Group Photo<br>Awarding of Certificates | Host |
 
 ## CONNECTATHON ACTIVITY DETAILS
@@ -121,8 +123,7 @@ To use: import both files, set `{{baseUrl}}` if needed, then run the **Submit eR
     | Track Lead | Affiliation |
     |------------|-------------|
     | John Lemuel Dalisay | Community Lead, PeRef Project |
-    | Dr. Leslie Ann Sedillo | Provincial Health Officer II, Province of Aklan |
-
+    
     #### **ACTIVITIES:**
      > 📖 **Essential Reading**: Participants must review the [PHeRef End-to-End Sample Case (Ana Reyes)](https://build.fhir.org/ig/ph-ereferral-organization/ph-ereferral/en/sample-case-ana-reyes.html) for complete bundle examples and step-by-step guidance on conditional updates.
 
@@ -265,8 +266,8 @@ To use: import both files, set `{{baseUrl}}` if needed, then run the **Submit eR
 
     | Track Lead | Affiliation |
     |------------|-------------|
-    | Gerard Paolo Villanueva | Interoperability Specialist, UP NTHC |
-    | Dir. Cherie Esteban | Director III, DOH KMITS |
+    | Name | Interoperability Specialist |
+    | Name | Director III |
 
 
      #### **ACTIVITIES:**
@@ -404,7 +405,7 @@ Participants are encouraged to submit structured feedback on:
 
 FHIR® is a registered trademark of Health Level Seven International.
 
-This Connectathon is made possible through the collaborative efforts of the University of the Philippines Manila National Institutes of Health, Department of Health (DOH), Philippine Health Insurance Corporation (PhilHealth), The Strengthening Standards Capability Project (SSCP) of Commonwealth Scientific and Industrial Research Organisation (CSIRO), Aklan Provincial Health Office, and other key stakeholders.
+This Connectathon is made possible through the collaborative efforts of the Department of Health (DOH) Center for Health Development 12.
 
 For questions and queries regarding the Connectathon, please contact **nih-nthc.upmanila@up.edu.ph**.
 
