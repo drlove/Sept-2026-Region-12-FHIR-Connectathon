@@ -1,7 +1,5 @@
 
-# September 2026 Philippines FHIR® Connectathon – General Santos, SOCKSKARGEN, Philippines
-
-<img width="1920" height="1080" alt="June FHIR Connectathon Slide Deck" src="https://github.com/user-attachments/assets/359fde77-8a27-4b98-ab4d-437f91595846" />
+# September 2026 Philippines FHIR® Connectathon – General Santos, SOCCSKSARGEN, Philippines
 
 The September 2026 Region 12 FHIR® Connectathon is co-organized by the Department of Health Center for Health Development Region 12 with the UPM Standards and Interoperability Lab (SILab). In-kind support and funding were provided by the Strengthening Standards Capability Project (SSCP) of the Commonwealth Scientific and Industrial Research Organization (CSIRO), UP Mindanao, and other key stakeholders.
 
@@ -16,18 +14,20 @@ The Connectathon aims to foster interoperability across health systems by provid
   2. **Standards Validation**: Test and validate emerging FHIR Implementation Guides (PH Core, eReferral, and Immunization) across real-world health system use cases
   3. **Interoperability Testing**: Demonstrate data exchange and system interoperability using standardized FHIR profiles across multiple tracks
   4. **Feedback & Refinement**: Capture technical issues, gaps, and lessons learned to inform the next iteration of FHIR IGs and national interoperability standards
-  5. **Governance & Scale-up**: Engage national agencies, hospitals, LGUs, and EMR vendors in governance discussions to generate policy recommendations for national scale-up
+  5. **Governance & Scale-up**: Engage regional agencies, hospitals, LGUs, and EMR vendors in governance discussions to generate policy recommendations for national scale-up, including an integrated regional Health IT investment plan.
 
 - ### Secondary Objectives
   1. Validate terminology mappings and workflow simulations developed using the WHO SMART Guidelines
-  2. Establish a sustainable community of practice around FHIR standards in the Philippines
-  3. Conduct a formal handover of refined FHIR IGs to the Department of Health for long-term adoption
-  4. Generate evidence and documentation to support the Digital Health Roadmap of the Philippines
-
+  2. Establish a sustainable community of practice around FHIR standards in the Philippines and Region 12
+  3. Provide feedback to the Department of Health on the results of the connectathon
+  4. Generate evidence and documentation to support the Philippine Digital Health Strategy
+     
 ## DISCLAIMER: 
 - ***The PH Core IG and PH eReferral IG are draft versions under active development and are not intended for production use. Both guides will be refined and updated based on feedback, issues, and recommendations gathered during the June Connectathon. Content, profiles, and implementation details are subject to change.***
 
 ## Postman Collection
+
+Participants are requested to install Postman prior to the event. Instructions are here [https://learning.postman.com/docs/getting-started/installation/install-app].
 
 A fully parameterized Postman collection is available at [`ph-ereferral-collection/`](ph-ereferral-collection/) for testing the PH eReferral (Track 1) workflow. Import both files into Postman:
 
@@ -59,16 +59,17 @@ To use: import both files, set `{{baseUrl}}` if needed, then run the **Submit eR
 
 | Time | Agenda | Person/Team Responsible |
 |------|---------|------------------------|
-| 08:00 AM – 08:30 AM | Registration | Western Visayas CHD |
+| 08:00 AM – 08:30 AM | Registration | CHD 12 |
 | 08:30 AM – 08:40 AM | Opening Prayer<br>Philippine National Anthem<br>Introductions | Mae Fernando<br>Host |
-| 08:40 AM – 08:50 AM | Opening Remarks | Cherrie D. Esteban<br>OIC-Director IV<br>Department of Health – Knowledge Management and Information Technology Service |
-| 08:50 AM – 09:00 AM | Welcome Remarks | Dr. <br>Regional Director<br>Region 12 CHD<br><br>NAME<br>Position<br>Organization |
+| 08:40 AM – 08:50 AM | Opening Remarks | Garizaldy Epistola<br>Computer Maintenance Technologist III<br>Department of Health – SOCCSKSARGEN |
+| 08:50 AM – 09:00 AM | Welcome Remarks | Dr. Exuperia B. Sabalberino, ND, MPH, CESE<br>Director IV<br>Department of Health – SOCCSKSARGEN<
 | 09:00 AM – 09:15 AM | Ice Breaker | Mae Fernando<br>Project Manager<br>CHD 12 |
-| 09:15 AM – 09:30 AM | Aklan Health Information Exchange | Dr. Leslie Sedillo<br>Provincial Health Officer<br>Province of Aklan |
-| 09:30 AM – 09:50 AM | Connectathon: Global Perspective Presentation | John Carter (CSIRO AEHRC)<br>Ilya Beda (CSIRO AEHRC) |
-| 09:50 AM – 10:05 AM | Introduction to the Philippine Core Implementation Guide | Alvin Marcelo, MD<br>Founder, UPM SILab |
+| 09:15 AM – 09:30 AM | The Aklan Health Information Exchange: the Public View | Dr. Alvin B. Marcelo<br>Asia eHealth Information Network|
+| 09:30 AM – 09:40 AM | Connectathon: Global Perspective Presentation | Umer Nisar (CSIRO AEHRC) online |
+| 09:40 AM – 09:50 AM | Connectathon: Boracay Perspective | Les Batay-an (TDG member) |
+| 09:50 AM – 10:05 AM | Chronology of the Philippine Core Implementation Guide | Alvin Marcelo, MD<br>Founder, UPM SILab |
 | 10:05 AM – 10:20 AM | Philippine eReferral (PHeRef) Project | John Lemuel Dalisay<br>Community Lead<br>PHeRef Project |
-| 10:20 AM – 10:50 AM | Open Forum | **Panelists:**<br>Alvin Marcelo<br>John Lemuel Dalisay<br>Bong Epsitola<br><br>(PHO)<br> |
+| 10:20 AM – 10:50 AM | Open Forum | **Panelists:**<br>Alvin Marcelo<br>John Lemuel Dalisay<br>Bong Epsitola<br>Les Batay-an |
 | 10:50 AM – 11:05 AM | Morning Break | — |
 | 11:05 AM – 11:20 AM | Overview of Connectathon: Objectives, Tracks, Set Up, and Use Cases | Alvin Marcelo |
 | 11:20 AM – 11:40 AM | Basic FHIR API - Fan |
@@ -76,13 +77,29 @@ To use: import both files, set `{{baseUrl}}` if needed, then run the **Submit eR
 | 01:00 PM – 02:30 PM | Terminology Services and FHIR Terminology | Dr. Alvin Marcelo |
 | 02:30 PM – 03:30 PM | Software Development | All Participants |
 | 03:30 PM – 04:50 PM | Working Afternoon Break (Software Development) | All Participants |
-| 04:50 PM – 05:00 PM | Wrap-up for Day 1 (Feedback Registry) | Errol Buenaventura<br>Interoperability Analyst<br>UP NTHC |
+| 04:50 PM – 05:00 PM | Wrap-up for Day 1 | Dr. Portia F. Marcelo <br>UP Colllege of Medicine |
 
-### Day 2
+### Day 2: Group 1 Governance and Management
 
 | Time | Agenda | Person/Team Responsible |
 |------|---------|------------------------|
-| 08:00 AM – 08:30 AM | Registration | Western Visayas CHD |
+| 08:00 AM – 08:30 AM | Registration | DOH-CHD12-SOCCSKSARGEN |
+| 08:30 AM – 08:40 AM | Recap Day 1 | Dr Portia F. Marcelo |
+| 08:40 AM – 10:30 AM | Drawing the Blueprint for the CHD12 Health Information Exchange | Dr. Alvin B. Marcelo |
+| 10:30 AM – 11:15 AM | CHD12-SOCCSKSARGEN HIE RACI  | All Participants |
+| 11:15 AM – 12:00 PM | Presentation of RACI | All Participants |
+| 12:00 PM – 01:00 PM | Lunch Break | All Participants |
+| 01:00 PM – 03:30 PM | Future State: a Generic Architecture for Regional Interoperability (client registry, facility registry, worker registry, terminology services) | Dr. Alvin B. Marcelo |
+| 03:30 PM – 04:00 PM | Afternoon Break | All Participants |
+| 04:00 PM – 04:30 PM | Future State: a Generic ISSP for Hospital Information System | All Participants |
+| 04:30 PM – 04:50 PM | Costing of a Hospital Information System | Dr Portia F. Marcelo |
+| 04:50 PM – 05:00 PM | Wrap-up and preparations for Day 3 | Dr. Alvin B. Marcelo
+
+### Day 2 - Group 2 Technology
+
+| Time | Agenda | Person/Team Responsible |
+|------|---------|------------------------|
+| 08:00 AM – 08:30 AM | Registration | DOH-CHD12-SOCCSKSARGEN |
 | 08:30 AM – 08:40 AM | Recap Day 1 | Participant |
 | 08:40 AM – 10:30 AM | Software Development | All Participants |
 | 10:30 AM – 11:00 AM | Working Morning Break (Software Development) | All Participants |
@@ -98,8 +115,8 @@ To use: import both files, set `{{baseUrl}}` if needed, then run the **Submit eR
 
 | Time | Agenda | Person/Team Responsible |
 |------|---------|------------------------|
-| 08:00 AM – 09:00 AM | Registration | Western Visayas CHD |
-| 09:00 AM – 09:20 AM | Recap Day 2 | Lawrence Macalalad<br>Interoperability Analyst<br>UP NTHC |
+| 08:00 AM – 09:00 AM | Registration | DOH-CHD12-SOCCSKSARGEN |
+| 09:00 AM – 09:20 AM | Recap Day 2 | John Lemuel Dalisay<br>SSCP consultant |
 | 09:20 AM – 10:30 AM | Software Development (Polishing) | All Participants |
 | 10:30 AM – 11:00 AM | Working Morning Break (Software Development) | All Participants |
 | 11:00 AM – 12:00 PM | Preparation for Show and Tell | All Participants |
